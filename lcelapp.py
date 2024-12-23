@@ -3,7 +3,7 @@ from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 import streamlit as st
 
-groq_api_key = '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'
+groq_api_key = 'GROQ_API_KEY'
 model = ChatGroq(model="Gemma2-9b-It", groq_api_key=groq_api_key)
 
 def translate_text(language: str, text: str):
