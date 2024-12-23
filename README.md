@@ -2,7 +2,7 @@
 
 This project is a multilingual translation app built with Streamlit and powered by the Groq Model (Gemma2-9b-It). It uses the LangChain framework for constructing a modular chain of prompts, models, and output parsers. The app allows users to translate text into a variety of target languages effortlessly.
 
-**Features ✨**
+**Features**
 
 * **Multilingual Translation:** Translate text into popular languages like French, Spanish, German, Tamil, and more.
 * **Custom Language Input:** Specify any custom target language if it’s not listed in the sidebar.
@@ -11,7 +11,7 @@ This project is a multilingual translation app built with Streamlit and powered 
 
 ---
 
-**Technologies & Libraries Used 📚**
+**Technologies & Libraries Used**
 
 1. **LangChain**
     * **Purpose:** For modular pipeline construction, combining prompts, models, and parsers.
@@ -31,7 +31,7 @@ This project is a multilingual translation app built with Streamlit and powered 
   
 ---
 
-**How It Works 🛠️**
+## How It Works
 
 **User Input:**
 
@@ -48,4 +48,50 @@ This project is a multilingual translation app built with Streamlit and powered 
 The translated text is displayed dynamically on the interface.
 
 ---
+
+## Installation 
+
+### Clone the Repository:
+   ```bash
+   git clone https://github.com/viswadarshan-024/llm-translation-app.git
+   cd multilingual-llm-translator
+   ```
+
+Install Dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+Run the App:
+   ```bash
+   streamlit run lcelapp.py
+   ```
+
+---
+
+## Unique Features 
+
+- **LangChain Integration**: Combines `ChatPromptTemplate`, `ChatGroq`, and `StrOutputParser` for efficient multilingual translation.
+- **Dynamic Language Options**: Supports popular languages and user-defined target languages.
+- **Groq Model for Translation**: `Gemma2-9b-It` is optimized for high-quality language generation.
+- **User-Friendly UI**: Streamlit provides an intuitive interface for end-users.
+
+## Usage 
+
+1. Navigate to the app interface (http://localhost:8501 by default).
+2. Select a target language or input a custom one.
+3. Enter the text to translate.
+4. Click the **Translate** button to see the translated text.
+
+---
+
+## Contributing 
+
+Contributions are welcome! Please feel free to fork the repository and submit a pull request.  
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
