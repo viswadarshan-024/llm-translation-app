@@ -2,6 +2,8 @@
 
 This project is a multilingual translation app built with Streamlit and powered by the Groq Model (Gemma2-9b-It). It uses the LangChain framework for constructing a modular chain of prompts, models, and output parsers. The app allows users to translate text into a variety of target languages effortlessly.
 
+Access the app in your browser at [Translation App](https://llm-translation-app.streamlit.app/).
+
 **Features**
 
 * **Multilingual Translation:** Translate text into popular languages like French, Spanish, German, Tamil, and more.
